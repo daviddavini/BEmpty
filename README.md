@@ -4,7 +4,7 @@ Find empty classrooms near you. Website for UCLA students.
 ### Installing Python Packages:
 'pip install -r requirements.txt' 
 
-### Download Chromedriver in broomfinder folder from this link:
+### Download Chromedriver in BEmpty folder from this link:
 
 	 https://chromedriver.chromium.org/home
 
