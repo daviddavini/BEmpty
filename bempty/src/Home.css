@@ -1,0 +1,18 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100 px;
+}
+
+a {
+    color: white;
+}
+
+button{
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+    border: transparent;
+    color: white;
+    font-size: large;
+}
