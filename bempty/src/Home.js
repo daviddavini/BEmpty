@@ -1,9 +1,10 @@
 import React from 'react';
 import './Home.css';
-import {BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
+import {BrowserRouter as useParams, Link} from "react-router-dom";
 //import logo from './BEMPTY.png';
 
 function Home() {
+
   return (
     <div class = "landing-page">
         <h1 class = "logo">BEMPTY</h1>

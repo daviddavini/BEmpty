@@ -8,9 +8,7 @@ function Header() {
     <div className="header">
         <Link to="/" class="header__logo">BEMPTY</Link>
         
-        {/*<div className='header__search'>
-            <input className='header__searchInput' type="text"></input>
-        </div>*/}
+
 
     </div>
   )
