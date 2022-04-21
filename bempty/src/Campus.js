@@ -10,6 +10,14 @@ function Campus() {
             <a>Boelter Hall</a>
             <a>Empty classrooms: 53</a>
         </div>
+        <div class="building">
+            <a>Math Science Building</a>
+            <a>Empty classrooms: 47</a>
+        </div>
+        <div class="building">
+            <a>Engineering VI</a>
+            <a>Empty classrooms: 13</a>
+        </div>
     </div>
   )
 }
