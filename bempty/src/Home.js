@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import {BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
 //import logo from './BEMPTY.png';
 
 function Home() {
@@ -8,8 +9,8 @@ function Home() {
         <h1 class = "logo">BEMPTY</h1>
         <a class = "slogan">find your next study place <br/></a>
         <div class="directory">
-            <button class="button1">North Campus</button>
-            <button class="button1">South Campus</button>
+            <Link to="Campus" class="link1">North Campus</Link>
+            <Link to="Campus" class="link1">South Campus</Link>
         </div>
     </div>
   )

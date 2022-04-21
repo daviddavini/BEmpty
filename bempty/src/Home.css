@@ -5,11 +5,17 @@ body{
 }
 
 .landing-page{
-    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+ 
 }
 
 .logo {
@@ -20,15 +26,21 @@ body{
 
 .slogan {
     position: relative;
-    left: 15%;
     color: white;
+    padding-bottom: 2%;
 }
 
 .directory{
+    display: flex;
+    flex-direction: row;
     position: relative;
+    top: 15%;
 }
 
-.button1{
+.link1{
+    text-decoration: none;
+    padding-left: 1%;
+    padding-right: 1%;
     background-color: transparent;
     text-align: center;
     border: transparent;
