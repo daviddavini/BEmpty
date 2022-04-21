@@ -9,3 +9,9 @@
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
+.welcome{
+    text-align: center;
+    color: yellow;
+    font-size: large;
+}
