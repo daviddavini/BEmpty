@@ -1,18 +1,37 @@
-h1 {
+
+body{
+    background-image: url("background3.jpg");
+    background-size: cover;
+}
+
+.landing-page{
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
     color: white;
     text-align: center;
-    font-size: 100 px;
+    font-size: xx-large;
 }
 
-a {
+.slogan {
+    position: relative;
+    left: 15%;
     color: white;
 }
 
-button{
+.directory{
+    position: relative;
+}
+
+.button1{
     background-color: transparent;
-    align-items: center;
     text-align: center;
     border: transparent;
     color: white;
-    font-size: large;
+    font-size: medium;
 }

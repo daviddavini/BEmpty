@@ -1,13 +1,16 @@
 import React from 'react';
 import './Home.css';
+//import logo from './BEMPTY.png';
 
 function Home() {
   return (
-    <div>
-        <h1 classname = "blah">BEmpty</h1>
-        <a>find your next study place <br/></a>
-        <button>North Campus</button>
-        <button>South Campus</button>
+    <div class = "landing-page">
+        <h1 class = "logo">BEMPTY</h1>
+        <a class = "slogan">find your next study place <br/></a>
+        <div class="directory">
+            <button class="button1">North Campus</button>
+            <button class="button1">South Campus</button>
+        </div>
     </div>
   )
 }
