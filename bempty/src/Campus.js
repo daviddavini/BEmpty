@@ -1,11 +1,11 @@
 import React from 'react';
 import './Campus.css';
-import {useParams, Link} from "react-router-dom";
+import {BrowserRouter as useParams, Link} from "react-router-dom";
 
 function Campus() {
   //let params = useParams();
   return (
-    <div class="campus_panel">
+    <div>
         <div class="welcome">Welcome to the South Campus!</div>
         <div class="welcome">Search Buildings: </div>
         <div class="building">
