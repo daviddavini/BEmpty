@@ -299,5 +299,5 @@ chromedriver
 unused/
 package-lock.json
 
-data_classrooms.csv
-data_courses.csv
+# data_classrooms.csv
+# data_courses.csv
