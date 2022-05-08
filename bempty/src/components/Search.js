@@ -1,6 +1,6 @@
 import React from 'react';
 import './Search.css';
-import BuildingsList from './BuildingsList';
+import BuildingsList from './BuildingsList.js';
 import {Link, Outlet} from "react-router-dom";
 import {Routes, Route, useParams} from "react-router-dom";
 
