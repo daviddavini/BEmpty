@@ -6,13 +6,15 @@ import {Link} from "react-router-dom";
 function Home() {
 
   return (
-    <div class = "landing-page">
+    <div class = "home">
+      <div class = "landing-page">
         <h1 class = "logo">BEMPTY</h1>
         <a class = "slogan">find your next study place <br/></a>
         <div class="directory">
             <Link to="Campus/North" class="link1">North Campus</Link>
             <Link to="Campus/South" class="link1">South Campus</Link>
         </div>
+      </div>
     </div>
   )
 }
