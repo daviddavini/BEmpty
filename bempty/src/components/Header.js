@@ -7,7 +7,7 @@ import { FaSchool } from "react-icons/fa" // imports icon to webpage
 function Header() {
   return (
     <div className="header">
-        <Link to="/" class="header__logo"><FaSchool/> Bempty</Link>
+        <Link to="/" class="header__logo"><FaSchool/>Bempty</Link>
         <Outlet/>
     </div>
   )
