@@ -2,6 +2,7 @@
 body{
     background-image: url("background3.jpg");
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
 }
 
 .home {
@@ -19,10 +20,14 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
- 
 }
 
+.waves{
+    display:block;
+    height: 52px; 
+    background-repeat: repeat-x;
+    color: white;
+}
 .logo {
     color: white;
     text-align: center;
