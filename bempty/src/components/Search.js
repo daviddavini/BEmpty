@@ -26,9 +26,9 @@ import {Routes, Route, useParams} from "react-router-dom";
 
 function ResultsArea() {
     const classrooms = [
-        {Id:5013,Level:'5',Building:'MS',Availability:'Empty'}, 
-        {Id:3125,Level:'3',Building:'Boleter',Availability:'Empty'},
-        {Id:175,Level:'1',Building:'Dodd',Availability:'Empty'}
+        {Id:5013,number:5013, Level:'5',Building:'MS',Availability:'Empty'}, 
+        {Id:3125,number:3125,Level:'3',Building:'Boleter',Availability:'Empty'},
+        {Id:175,number:175,Level:'1',Building:'Dodd',Availability:'Empty'}
       
     ];
     return (

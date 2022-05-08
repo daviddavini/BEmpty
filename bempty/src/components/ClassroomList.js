@@ -5,7 +5,10 @@ import { ReactDOM } from 'react';
 function Classroom(props) {
     return <div style={{border:"3px solid blue"}}>
         <p>
-            <label>Classroom Number: <b>{props.data.id}</b></label>
+            <label>Classroom ID: <b>{props.data.id}</b></label>
+        </p>
+        <p>
+            <label>Classroom Number: <b>{props.data.number}</b></label>
         </p>
         <p>
             <label>Classroom Level: <b>{props.data.Level}</b></label>
