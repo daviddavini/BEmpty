@@ -2,17 +2,18 @@ import React from 'react';
 import './Search.css';
 import BuildingsList from './BuildingsList.js';
 import {Link, Outlet} from "react-router-dom";
+import InputsArea from './InputsArea.js'
 import {Routes, Route, useParams} from "react-router-dom";
 
-function InputsArea() {
-    return (
-        <div class="inputs-area">
-            Inputs
-            {/* <Message/>
-            <Preferences/> */}
-        </div>
-    );
-}
+// function InputsArea() {
+//     return (
+//         <div class="inputs-area">
+//             Inputs
+//             {/* <Message/>
+//             <Preferences/> */}
+//         </div>
+//     );
+// }
 
 function ClassroomsList() {
     return (
