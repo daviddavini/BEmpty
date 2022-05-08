@@ -1,54 +1,89 @@
-
-body{
-    background-image: url("background3.jpg");
-    background-size: cover;
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
-.landing-page{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.main-btn {
+  border-radius: 15px;
+  position: absolute;
+  background-color: #2774AE;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  font-size: 20px;
+  width: 250px;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  top: 8rem;
+  left: 12rem;
 }
 
-.waves{
-    display:block;
-    height: 52px; 
-    background-repeat: repeat-x;
-    color: white;
+.landing-page {
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
 }
+
+.image {
+  border-radius: var(--br-sm-2);
+  height: 90%;
+  width: 89.5%;
+  margin-left: 4rem;
+  background-color: var(--color-black);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .logo {
-    color: white;
-    text-align: center;
-    font-size: xx-large;
+  color: #2774AE;
+  text-align: center;
+  font-size: xx-large;
+  position: relative;
+  top: 5rem;
+  left: 2rem;
 }
 
 .slogan {
-    position: relative;
-    color: white;
-    padding-bottom: 2%;
+  position: relative;
+  color: #F9E699;
+  padding-bottom: 2%;
+  position: relative;
+  top: 5rem;
+  left: 13rem;
+  font-size: 1.4rem;
 }
 
-.directory{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    top: 15%;
+.directory {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  top: 15%;
 }
 
-.link1{
-    text-decoration: none;
-    padding-left: 1%;
-    padding-right: 1%;
-    background-color: transparent;
-    text-align: center;
-    border: transparent;
-    color: white;
-    font-size: medium;
+.link1 {
+  text-decoration: none;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: transparent;
+  text-align: center;
+  border: transparent;
+  color: white;
+  font-size: medium;
 }
+/*# sourceMappingURL=Home.css.map */
