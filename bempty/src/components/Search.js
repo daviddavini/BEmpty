@@ -35,7 +35,7 @@ function ResultsArea() {
         <div class="results-area">
             <Routes>
                 <Route path="buildings" element={<BuildingsList/>} />
-                <Route path="classrooms" element={<ClassroomList classroomList={classrooms}/>} />
+                <Route index element={<ClassroomList classroomList={classrooms}/>} />
             </Routes>
         </div>
     );
