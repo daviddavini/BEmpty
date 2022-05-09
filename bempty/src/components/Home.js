@@ -12,7 +12,7 @@ function Home() {
       <div class ="left-content">
         <h1 class = "logo">Welcome!</h1>
         <a class = "slogan">Be your best at an empty place. <br/></a>
-            <Link to="Campus/North" class="link1">  <button class ="main-btn">Search for Empty Classrooms</button></Link>
+            <Link to="Search" class="link1">  <button class ="main-btn">Search for Empty Classrooms</button></Link>
             </div>
             {/* <Link to="Campus/South" class="link1">South Campus</Link> */}
             <div class ="right-content">

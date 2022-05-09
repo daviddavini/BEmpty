@@ -15,7 +15,7 @@ export default function InputsArea() {
       <TimePicker onChange={onChange_time} value={time} clockIcon={null} clearIcon={null}/>
       <div>The time you selected is {time}. </div>
       <Link to="/Search" class="button1">Find Classrooms</Link>
-      <Link to="buildings" class="button1">Find buildinga</Link>
+      <Link to="buildings" class="button1">Find building</Link>
     </div>
   )
 }
