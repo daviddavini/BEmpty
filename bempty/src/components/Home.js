@@ -7,6 +7,7 @@ import {Link} from "react-router-dom";
 function Home() {
 
   return (
+    <div class ="home"> 
     <div class = "landing-page">
       <div class ="left-content">
         <h1 class = "logo">Welcome!</h1>
@@ -17,9 +18,10 @@ function Home() {
             <div class ="right-content">
               <div class ="image" >
             <img src={"https://s3.amazonaws.com/cms.ipressroom.com/173/files/20198/5d72b4772cfac209ff04c634_Royce+Quad/Royce+Quad_hero.jpg"}/>
-            </div>
-            </div>
         </div>
+      </div>
+    </div>
+  </div>
   )
 }
 
