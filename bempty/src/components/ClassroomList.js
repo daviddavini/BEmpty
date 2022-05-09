@@ -3,18 +3,18 @@ import './ClassroomList.css';
 import { ReactDOM } from 'react';
 
 function Classroom(props) {
-    return <div style={{border:"3px solid blue"}}>
+    return <div class="classrooms" >
         <p>
-            <label>Classroom Number: <b>{props.data.id}</b></label>
+            <label>Classroom : <b>{props.data.number}</b></label>
         </p>
         <p>
-            <label>Classroom Level: <b>{props.data.Level}</b></label>
+            <label> Level: <b>{props.data.Level}</b></label>
         </p>
         <p>
-            <label>Classroom Building: <b>{props.data.Building}</b></label>
+            <label> Building: <b>{props.data.Building}</b></label>
         </p>
         <p>
-            <label>Classroom Availability: <b>{props.data.Availability}</b></label>
+        <label> Availability: <b>{props.data.Availability}</b></label>
         </p>
     </div>;
   

@@ -1,0 +1,13 @@
+.classrooms{
+    display: flex;
+    background-color: beige;
+    justify-content: space-between;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+

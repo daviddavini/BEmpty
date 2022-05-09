@@ -7,16 +7,21 @@ import {Link} from "react-router-dom";
 function Home() {
 
   return (
-    <div class = "home">
-      <div class = "landing-page">
-        <h1 class = "logo">BEMPTY</h1>
+    <div class ="home"> 
+    <div class = "landing-page">
+      <div class ="left-content">
+        <h1 class = "logo">Welcome!</h1>
         <a class = "slogan">Be your best at an empty place. <br/></a>
-        <div class="directory">
-            <Link to="Campus/North" class="link1">North Campus</Link>
-            <Link to="Campus/South" class="link1">South Campus</Link>
+            <Link to="Campus/North" class="link1">  <button class ="main-btn">Search for Empty Classrooms</button></Link>
+            </div>
+            {/* <Link to="Campus/South" class="link1">South Campus</Link> */}
+            <div class ="right-content">
+              <div class ="image" >
+            <img src={"https://s3.amazonaws.com/cms.ipressroom.com/173/files/20198/5d72b4772cfac209ff04c634_Royce+Quad/Royce+Quad_hero.jpg"}/>
         </div>
       </div>
     </div>
+  </div>
   )
 }
 
