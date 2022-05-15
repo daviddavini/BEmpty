@@ -11,7 +11,7 @@ function BuildingsListEntry(props) {
     );
 }
 
-function BuildingsList(params) {
+function BuildingsList(props) {
     const buildings = [
         {
             name: "Engineering VI",
@@ -29,13 +29,11 @@ function BuildingsList(params) {
 
     return (
         <div class="buildings-list">
-            <div>The building selected is {params.building}</div>
-            <h1>Buildings:</h1>
             <ul>
                 {buildings.map((building) => 
                     <li>
                         <BuildingsListEntry name={building.name} emptyRooms={building.emptyRooms} 
-                        select_building={params.select_building}/>
+                        select_building={props.select_building}/>
                     </li>
                 )}
             </ul>
