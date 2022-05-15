@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 function BuildingsListEntry(props) {
     return (
         <div class="building">
-            <Link to="/Search" onClick={props.select_building(props.name)}>{props.name}</Link>
+            <Link to="/Search" onClick={() => props.select_building(props.name)}> {props.name}</Link>
             <a>Empty classrooms: {props.emptyRooms}</a>
         </div>
     );
