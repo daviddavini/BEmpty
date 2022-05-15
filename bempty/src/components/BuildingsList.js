@@ -1,16 +1,17 @@
 import React from 'react';
 import './BuildingsList.css'
+import {Link} from "react-router-dom";
 
 function BuildingsListEntry(props) {
     return (
         <div class="building">
-            <a>{props.name}</a>
+            <Link to="/Search" onClick={props.select_building(props.name)}>{props.name}</Link>
             <a>Empty classrooms: {props.emptyRooms}</a>
         </div>
     );
 }
 
-function BuildingsList() {
+function BuildingsList(params) {
     const buildings = [
         {
             name: "Engineering VI",
@@ -25,12 +26,17 @@ function BuildingsList() {
             emptyRooms: 53,
         },
     ]
+
     return (
         <div class="buildings-list">
+            <div>The building selected is {params.building}</div>
             <h1>Buildings:</h1>
             <ul>
                 {buildings.map((building) => 
-                    <li><BuildingsListEntry name={building.name} emptyRooms={building.emptyRooms}/></li>
+                    <li>
+                        <BuildingsListEntry name={building.name} emptyRooms={building.emptyRooms} 
+                        select_building={params.select_building}/>
+                    </li>
                 )}
             </ul>
         </div>
